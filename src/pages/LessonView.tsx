@@ -9,7 +9,7 @@ import confetti from 'canvas-confetti';
 const LessonView = () => {
   const { moduleId } = useParams();
   const navigate = useNavigate();
-  const { addXp, unlockModule, user } = useAppStore();
+  const { addXp, unlockModule } = useAppStore();
   
   const [selectedOption, setSelectedOption] = useState<number | null>(null);
   const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
@@ -136,7 +136,7 @@ const LessonView = () => {
                     key={index} 
                     className={optionClass}
                     onClick={() => handleOptionSelect(index)}
-                    disabled={selectedOption !== null && isCorrect}
+                    disabled={selectedOption !== null && isCorrect === true}
                   >
                     <div className="option-indicator">{String.fromCharCode(65 + index)}</div>
                     <div className="option-text">{opt}</div>

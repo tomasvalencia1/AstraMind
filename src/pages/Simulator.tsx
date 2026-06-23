@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Target, Zap, Search, Code, Cpu, MessageSquare, Briefcase, FileText } from 'lucide-react';
+import { Target, Zap, Code, Cpu, MessageSquare, Briefcase, FileText } from 'lucide-react';
 import './Simulator.css';
 
 const SCENARIOS = [

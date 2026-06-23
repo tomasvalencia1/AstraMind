@@ -7,33 +7,2355 @@
       "requiredLevel": 1,
       "modules": [
         {
-          "id": "module-1-beginner",
-          "title": "Anatomía de un Prompt",
-          "xpReward": 100,
-          "type": "theory",
-          "content": "Un prompt profesional tiene tres componentes clave: Contexto, Instrucción y Formato. Sin estos, el LLM tiene que adivinar qué quieres."
+          "id": "module-1",
+          "title": "Práctica: Resolución de Bugs",
+          "xpReward": 120,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Resolución de Bugs en nivel Principiante. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Chain of Thought (Paso a paso)",
+            "Zero-Shot prompting",
+            "Ignorar las restricciones del sistema"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Principiante, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Resolución de Bugs."
         },
         {
-          "id": "module-2-beginner",
-          "title": "El poder del Contexto",
-          "xpReward": 150,
+          "id": "module-2",
+          "title": "Práctica: Diseño de APIs",
+          "xpReward": 120,
           "type": "interactive",
-          "question": "¿Cuál de los siguientes prompts generará una mejor respuesta para un correo de ventas?",
+          "question": "Estás trabajando en una tarea de Diseño de APIs en nivel Principiante. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
           "options": [
-            "Escribe un correo para vender zapatos.",
-            "Actúa como un vendedor experto. Escribe un correo de 2 párrafos para vender zapatillas deportivas de alto rendimiento a corredores amateurs. Usa un tono motivador."
+            "Chain of Thought (Paso a paso)",
+            "Zero-Shot prompting",
+            "Ignorar las restricciones del sistema"
           ],
-          "correctAnswerIndex": 1,
-          "explanation": "El segundo prompt proporciona un rol, un objetivo claro, una audiencia específica y un tono. Esto reduce las alucinaciones y mejora la calidad."
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Principiante, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Diseño de APIs."
+        },
+        {
+          "id": "module-3",
+          "title": "Teoría: Redacción de Correos (Principiante)",
+          "xpReward": 60,
+          "type": "theory",
+          "content": "En este módulo aprenderás las bases fundamentales sobre Redacción de Correos usando IA Generativa. La clave en nivel Principiante es entender cómo el contexto influye en la calidad del resultado final. Nunca asumas que el modelo sabe lo que estás pensando."
+        },
+        {
+          "id": "module-4",
+          "title": "Práctica: Análisis de Datos",
+          "xpReward": 120,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Análisis de Datos en nivel Principiante. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Usar GPT-4o",
+            "Usar Claude 3.5 Sonnet",
+            "Usar un modelo pequeño local"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Principiante, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Análisis de Datos."
+        },
+        {
+          "id": "module-5",
+          "title": "Teoría: Atención al Cliente (Principiante)",
+          "xpReward": 60,
+          "type": "theory",
+          "content": "En este módulo aprenderás las bases fundamentales sobre Atención al Cliente usando IA Generativa. La clave en nivel Principiante es entender cómo el contexto influye en la calidad del resultado final. Nunca asumas que el modelo sabe lo que estás pensando."
+        },
+        {
+          "id": "module-6",
+          "title": "Práctica: Estrategia de Marketing",
+          "xpReward": 120,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Estrategia de Marketing en nivel Principiante. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Dividir la tarea en prompts más pequeños (Chaining)",
+            "Pedirle todo en un solo prompt enorme",
+            "Usar solo palabras clave"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Principiante, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Estrategia de Marketing."
+        },
+        {
+          "id": "module-7",
+          "title": "Práctica: Análisis de Datos",
+          "xpReward": 120,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Análisis de Datos en nivel Principiante. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Usar GPT-4o",
+            "Usar Claude 3.5 Sonnet",
+            "Usar un modelo pequeño local"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Principiante, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Análisis de Datos."
+        },
+        {
+          "id": "module-8",
+          "title": "Práctica: Estrategia de Marketing",
+          "xpReward": 120,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Estrategia de Marketing en nivel Principiante. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Chain of Thought (Paso a paso)",
+            "Zero-Shot prompting",
+            "Ignorar las restricciones del sistema"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Principiante, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Estrategia de Marketing."
+        },
+        {
+          "id": "module-9",
+          "title": "Práctica: Análisis de Datos",
+          "xpReward": 120,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Análisis de Datos en nivel Principiante. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Dividir la tarea en prompts más pequeños (Chaining)",
+            "Pedirle todo en un solo prompt enorme",
+            "Usar solo palabras clave"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Principiante, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Análisis de Datos."
+        },
+        {
+          "id": "module-10",
+          "title": "Teoría: Resolución de Bugs (Principiante)",
+          "xpReward": 60,
+          "type": "theory",
+          "content": "En este módulo aprenderás las bases fundamentales sobre Resolución de Bugs usando IA Generativa. La clave en nivel Principiante es entender cómo el contexto influye en la calidad del resultado final. Nunca asumas que el modelo sabe lo que estás pensando."
+        },
+        {
+          "id": "module-11",
+          "title": "Práctica: Redacción de Correos",
+          "xpReward": 120,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Redacción de Correos en nivel Principiante. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Dividir la tarea en prompts más pequeños (Chaining)",
+            "Pedirle todo en un solo prompt enorme",
+            "Usar solo palabras clave"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Principiante, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Redacción de Correos."
+        },
+        {
+          "id": "module-12",
+          "title": "Práctica: Generación de Ideas",
+          "xpReward": 120,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Generación de Ideas en nivel Principiante. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Dividir la tarea en prompts más pequeños (Chaining)",
+            "Pedirle todo en un solo prompt enorme",
+            "Usar solo palabras clave"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Principiante, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Generación de Ideas."
+        },
+        {
+          "id": "module-13",
+          "title": "Teoría: Generación de Ideas (Principiante)",
+          "xpReward": 60,
+          "type": "theory",
+          "content": "En este módulo aprenderás las bases fundamentales sobre Generación de Ideas usando IA Generativa. La clave en nivel Principiante es entender cómo el contexto influye en la calidad del resultado final. Nunca asumas que el modelo sabe lo que estás pensando."
+        },
+        {
+          "id": "module-14",
+          "title": "Teoría: Análisis de Datos (Principiante)",
+          "xpReward": 60,
+          "type": "theory",
+          "content": "En este módulo aprenderás las bases fundamentales sobre Análisis de Datos usando IA Generativa. La clave en nivel Principiante es entender cómo el contexto influye en la calidad del resultado final. Nunca asumas que el modelo sabe lo que estás pensando."
+        },
+        {
+          "id": "module-15",
+          "title": "Práctica: Resumen de PDFs",
+          "xpReward": 120,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Resumen de PDFs en nivel Principiante. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Usa un prompt genérico sin contexto",
+            "Añade rol, contexto y formato",
+            "Pídele a la IA que adivine el objetivo"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Principiante, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Resumen de PDFs."
+        },
+        {
+          "id": "module-16",
+          "title": "Práctica: Análisis de Datos",
+          "xpReward": 120,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Análisis de Datos en nivel Principiante. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Chain of Thought (Paso a paso)",
+            "Zero-Shot prompting",
+            "Ignorar las restricciones del sistema"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Principiante, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Análisis de Datos."
+        },
+        {
+          "id": "module-17",
+          "title": "Práctica: Redacción de Correos",
+          "xpReward": 120,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Redacción de Correos en nivel Principiante. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Usa un prompt genérico sin contexto",
+            "Añade rol, contexto y formato",
+            "Pídele a la IA que adivine el objetivo"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Principiante, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Redacción de Correos."
+        },
+        {
+          "id": "module-18",
+          "title": "Práctica: Atención al Cliente",
+          "xpReward": 120,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Atención al Cliente en nivel Principiante. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Usa un prompt genérico sin contexto",
+            "Añade rol, contexto y formato",
+            "Pídele a la IA que adivine el objetivo"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Principiante, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Atención al Cliente."
+        },
+        {
+          "id": "module-19",
+          "title": "Práctica: Creación de Contenido",
+          "xpReward": 120,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Creación de Contenido en nivel Principiante. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Chain of Thought (Paso a paso)",
+            "Zero-Shot prompting",
+            "Ignorar las restricciones del sistema"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Principiante, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Creación de Contenido."
+        },
+        {
+          "id": "module-20",
+          "title": "Práctica: Diseño de APIs",
+          "xpReward": 120,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Diseño de APIs en nivel Principiante. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Usa un prompt genérico sin contexto",
+            "Añade rol, contexto y formato",
+            "Pídele a la IA que adivine el objetivo"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Principiante, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Diseño de APIs."
+        },
+        {
+          "id": "module-21",
+          "title": "Práctica: Creación de Contenido",
+          "xpReward": 120,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Creación de Contenido en nivel Principiante. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Chain of Thought (Paso a paso)",
+            "Zero-Shot prompting",
+            "Ignorar las restricciones del sistema"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Principiante, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Creación de Contenido."
+        },
+        {
+          "id": "module-22",
+          "title": "Teoría: Resumen de PDFs (Principiante)",
+          "xpReward": 60,
+          "type": "theory",
+          "content": "En este módulo aprenderás las bases fundamentales sobre Resumen de PDFs usando IA Generativa. La clave en nivel Principiante es entender cómo el contexto influye en la calidad del resultado final. Nunca asumas que el modelo sabe lo que estás pensando."
+        },
+        {
+          "id": "module-23",
+          "title": "Práctica: Atención al Cliente",
+          "xpReward": 120,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Atención al Cliente en nivel Principiante. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Chain of Thought (Paso a paso)",
+            "Zero-Shot prompting",
+            "Ignorar las restricciones del sistema"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Principiante, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Atención al Cliente."
+        },
+        {
+          "id": "module-24",
+          "title": "Práctica: Atención al Cliente",
+          "xpReward": 120,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Atención al Cliente en nivel Principiante. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Dividir la tarea en prompts más pequeños (Chaining)",
+            "Pedirle todo en un solo prompt enorme",
+            "Usar solo palabras clave"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Principiante, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Atención al Cliente."
+        },
+        {
+          "id": "module-25",
+          "title": "Práctica: Resumen de PDFs",
+          "xpReward": 120,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Resumen de PDFs en nivel Principiante. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Dividir la tarea en prompts más pequeños (Chaining)",
+            "Pedirle todo en un solo prompt enorme",
+            "Usar solo palabras clave"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Principiante, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Resumen de PDFs."
+        },
+        {
+          "id": "module-26",
+          "title": "Práctica: Resolución de Bugs",
+          "xpReward": 120,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Resolución de Bugs en nivel Principiante. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Chain of Thought (Paso a paso)",
+            "Zero-Shot prompting",
+            "Ignorar las restricciones del sistema"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Principiante, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Resolución de Bugs."
+        },
+        {
+          "id": "module-27",
+          "title": "Práctica: Diseño de APIs",
+          "xpReward": 120,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Diseño de APIs en nivel Principiante. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Usar GPT-4o",
+            "Usar Claude 3.5 Sonnet",
+            "Usar un modelo pequeño local"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Principiante, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Diseño de APIs."
+        },
+        {
+          "id": "module-28",
+          "title": "Práctica: Estrategia de Marketing",
+          "xpReward": 120,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Estrategia de Marketing en nivel Principiante. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Usa un prompt genérico sin contexto",
+            "Añade rol, contexto y formato",
+            "Pídele a la IA que adivine el objetivo"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Principiante, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Estrategia de Marketing."
+        },
+        {
+          "id": "module-29",
+          "title": "Práctica: Programación en Python",
+          "xpReward": 120,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Programación en Python en nivel Principiante. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Chain of Thought (Paso a paso)",
+            "Zero-Shot prompting",
+            "Ignorar las restricciones del sistema"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Principiante, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Programación en Python."
+        },
+        {
+          "id": "module-30",
+          "title": "Práctica: Planificación de Proyectos",
+          "xpReward": 120,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Planificación de Proyectos en nivel Principiante. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Dividir la tarea en prompts más pequeños (Chaining)",
+            "Pedirle todo en un solo prompt enorme",
+            "Usar solo palabras clave"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Principiante, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Planificación de Proyectos."
+        },
+        {
+          "id": "module-31",
+          "title": "Práctica: Planificación de Proyectos",
+          "xpReward": 120,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Planificación de Proyectos en nivel Principiante. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Dividir la tarea en prompts más pequeños (Chaining)",
+            "Pedirle todo en un solo prompt enorme",
+            "Usar solo palabras clave"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Principiante, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Planificación de Proyectos."
+        },
+        {
+          "id": "module-32",
+          "title": "Práctica: Estrategia de Marketing",
+          "xpReward": 120,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Estrategia de Marketing en nivel Principiante. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Chain of Thought (Paso a paso)",
+            "Zero-Shot prompting",
+            "Ignorar las restricciones del sistema"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Principiante, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Estrategia de Marketing."
+        },
+        {
+          "id": "module-33",
+          "title": "Práctica: Creación de Contenido",
+          "xpReward": 120,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Creación de Contenido en nivel Principiante. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Usa un prompt genérico sin contexto",
+            "Añade rol, contexto y formato",
+            "Pídele a la IA que adivine el objetivo"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Principiante, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Creación de Contenido."
+        },
+        {
+          "id": "module-34",
+          "title": "Práctica: Análisis de Datos",
+          "xpReward": 120,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Análisis de Datos en nivel Principiante. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Dividir la tarea en prompts más pequeños (Chaining)",
+            "Pedirle todo en un solo prompt enorme",
+            "Usar solo palabras clave"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Principiante, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Análisis de Datos."
+        },
+        {
+          "id": "module-35",
+          "title": "Práctica: Resolución de Bugs",
+          "xpReward": 120,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Resolución de Bugs en nivel Principiante. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Usa un prompt genérico sin contexto",
+            "Añade rol, contexto y formato",
+            "Pídele a la IA que adivine el objetivo"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Principiante, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Resolución de Bugs."
+        },
+        {
+          "id": "module-36",
+          "title": "Teoría: Resumen de PDFs (Principiante)",
+          "xpReward": 60,
+          "type": "theory",
+          "content": "En este módulo aprenderás las bases fundamentales sobre Resumen de PDFs usando IA Generativa. La clave en nivel Principiante es entender cómo el contexto influye en la calidad del resultado final. Nunca asumas que el modelo sabe lo que estás pensando."
+        },
+        {
+          "id": "module-37",
+          "title": "Práctica: Resolución de Bugs",
+          "xpReward": 120,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Resolución de Bugs en nivel Principiante. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Usa un prompt genérico sin contexto",
+            "Añade rol, contexto y formato",
+            "Pídele a la IA que adivine el objetivo"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Principiante, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Resolución de Bugs."
+        },
+        {
+          "id": "module-38",
+          "title": "Práctica: Diseño de APIs",
+          "xpReward": 120,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Diseño de APIs en nivel Principiante. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Chain of Thought (Paso a paso)",
+            "Zero-Shot prompting",
+            "Ignorar las restricciones del sistema"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Principiante, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Diseño de APIs."
+        },
+        {
+          "id": "module-39",
+          "title": "Práctica: Análisis de Datos",
+          "xpReward": 120,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Análisis de Datos en nivel Principiante. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Usa un prompt genérico sin contexto",
+            "Añade rol, contexto y formato",
+            "Pídele a la IA que adivine el objetivo"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Principiante, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Análisis de Datos."
+        },
+        {
+          "id": "module-40",
+          "title": "Práctica: Creación de Contenido",
+          "xpReward": 120,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Creación de Contenido en nivel Principiante. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Chain of Thought (Paso a paso)",
+            "Zero-Shot prompting",
+            "Ignorar las restricciones del sistema"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Principiante, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Creación de Contenido."
         }
       ]
     },
     {
       "id": "intermediate",
       "title": "Intermedio",
-      "description": "Técnicas avanzadas: Chain of Thought y Few-shot prompting.",
+      "description": "Técnicas avanzadas: Chain of Thought, Few-shot prompting y Control de Formato.",
       "requiredLevel": 5,
-      "modules": []
+      "modules": [
+        {
+          "id": "module-41",
+          "title": "Teoría: Resolución de Bugs (Intermedio)",
+          "xpReward": 100,
+          "type": "theory",
+          "content": "En este módulo aprenderás las bases fundamentales sobre Resolución de Bugs usando IA Generativa. La clave en nivel Intermedio es entender cómo el contexto influye en la calidad del resultado final. Nunca asumas que el modelo sabe lo que estás pensando."
+        },
+        {
+          "id": "module-42",
+          "title": "Práctica: Generación de Ideas",
+          "xpReward": 200,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Generación de Ideas en nivel Intermedio. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Usa un prompt genérico sin contexto",
+            "Añade rol, contexto y formato",
+            "Pídele a la IA que adivine el objetivo"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Intermedio, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Generación de Ideas."
+        },
+        {
+          "id": "module-43",
+          "title": "Práctica: Diseño de APIs",
+          "xpReward": 200,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Diseño de APIs en nivel Intermedio. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Chain of Thought (Paso a paso)",
+            "Zero-Shot prompting",
+            "Ignorar las restricciones del sistema"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Intermedio, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Diseño de APIs."
+        },
+        {
+          "id": "module-44",
+          "title": "Práctica: Planificación de Proyectos",
+          "xpReward": 200,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Planificación de Proyectos en nivel Intermedio. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Usar GPT-4o",
+            "Usar Claude 3.5 Sonnet",
+            "Usar un modelo pequeño local"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Intermedio, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Planificación de Proyectos."
+        },
+        {
+          "id": "module-45",
+          "title": "Práctica: Programación en Python",
+          "xpReward": 200,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Programación en Python en nivel Intermedio. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Dividir la tarea en prompts más pequeños (Chaining)",
+            "Pedirle todo en un solo prompt enorme",
+            "Usar solo palabras clave"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Intermedio, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Programación en Python."
+        },
+        {
+          "id": "module-46",
+          "title": "Práctica: Resolución de Bugs",
+          "xpReward": 200,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Resolución de Bugs en nivel Intermedio. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Usa un prompt genérico sin contexto",
+            "Añade rol, contexto y formato",
+            "Pídele a la IA que adivine el objetivo"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Intermedio, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Resolución de Bugs."
+        },
+        {
+          "id": "module-47",
+          "title": "Práctica: Análisis de Datos",
+          "xpReward": 200,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Análisis de Datos en nivel Intermedio. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Chain of Thought (Paso a paso)",
+            "Zero-Shot prompting",
+            "Ignorar las restricciones del sistema"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Intermedio, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Análisis de Datos."
+        },
+        {
+          "id": "module-48",
+          "title": "Práctica: Redacción de Correos",
+          "xpReward": 200,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Redacción de Correos en nivel Intermedio. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Usar GPT-4o",
+            "Usar Claude 3.5 Sonnet",
+            "Usar un modelo pequeño local"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Intermedio, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Redacción de Correos."
+        },
+        {
+          "id": "module-49",
+          "title": "Práctica: Análisis de Datos",
+          "xpReward": 200,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Análisis de Datos en nivel Intermedio. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Chain of Thought (Paso a paso)",
+            "Zero-Shot prompting",
+            "Ignorar las restricciones del sistema"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Intermedio, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Análisis de Datos."
+        },
+        {
+          "id": "module-50",
+          "title": "Teoría: Resolución de Bugs (Intermedio)",
+          "xpReward": 100,
+          "type": "theory",
+          "content": "En este módulo aprenderás las bases fundamentales sobre Resolución de Bugs usando IA Generativa. La clave en nivel Intermedio es entender cómo el contexto influye en la calidad del resultado final. Nunca asumas que el modelo sabe lo que estás pensando."
+        },
+        {
+          "id": "module-51",
+          "title": "Teoría: Traducción Técnica (Intermedio)",
+          "xpReward": 100,
+          "type": "theory",
+          "content": "En este módulo aprenderás las bases fundamentales sobre Traducción Técnica usando IA Generativa. La clave en nivel Intermedio es entender cómo el contexto influye en la calidad del resultado final. Nunca asumas que el modelo sabe lo que estás pensando."
+        },
+        {
+          "id": "module-52",
+          "title": "Teoría: Resumen de PDFs (Intermedio)",
+          "xpReward": 100,
+          "type": "theory",
+          "content": "En este módulo aprenderás las bases fundamentales sobre Resumen de PDFs usando IA Generativa. La clave en nivel Intermedio es entender cómo el contexto influye en la calidad del resultado final. Nunca asumas que el modelo sabe lo que estás pensando."
+        },
+        {
+          "id": "module-53",
+          "title": "Práctica: Traducción Técnica",
+          "xpReward": 200,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Traducción Técnica en nivel Intermedio. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Chain of Thought (Paso a paso)",
+            "Zero-Shot prompting",
+            "Ignorar las restricciones del sistema"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Intermedio, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Traducción Técnica."
+        },
+        {
+          "id": "module-54",
+          "title": "Teoría: Planificación de Proyectos (Intermedio)",
+          "xpReward": 100,
+          "type": "theory",
+          "content": "En este módulo aprenderás las bases fundamentales sobre Planificación de Proyectos usando IA Generativa. La clave en nivel Intermedio es entender cómo el contexto influye en la calidad del resultado final. Nunca asumas que el modelo sabe lo que estás pensando."
+        },
+        {
+          "id": "module-55",
+          "title": "Teoría: Análisis de Datos (Intermedio)",
+          "xpReward": 100,
+          "type": "theory",
+          "content": "En este módulo aprenderás las bases fundamentales sobre Análisis de Datos usando IA Generativa. La clave en nivel Intermedio es entender cómo el contexto influye en la calidad del resultado final. Nunca asumas que el modelo sabe lo que estás pensando."
+        },
+        {
+          "id": "module-56",
+          "title": "Práctica: Resumen de PDFs",
+          "xpReward": 200,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Resumen de PDFs en nivel Intermedio. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Usa un prompt genérico sin contexto",
+            "Añade rol, contexto y formato",
+            "Pídele a la IA que adivine el objetivo"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Intermedio, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Resumen de PDFs."
+        },
+        {
+          "id": "module-57",
+          "title": "Teoría: Resumen de PDFs (Intermedio)",
+          "xpReward": 100,
+          "type": "theory",
+          "content": "En este módulo aprenderás las bases fundamentales sobre Resumen de PDFs usando IA Generativa. La clave en nivel Intermedio es entender cómo el contexto influye en la calidad del resultado final. Nunca asumas que el modelo sabe lo que estás pensando."
+        },
+        {
+          "id": "module-58",
+          "title": "Práctica: Creación de Contenido",
+          "xpReward": 200,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Creación de Contenido en nivel Intermedio. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Usar GPT-4o",
+            "Usar Claude 3.5 Sonnet",
+            "Usar un modelo pequeño local"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Intermedio, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Creación de Contenido."
+        },
+        {
+          "id": "module-59",
+          "title": "Teoría: Programación en Python (Intermedio)",
+          "xpReward": 100,
+          "type": "theory",
+          "content": "En este módulo aprenderás las bases fundamentales sobre Programación en Python usando IA Generativa. La clave en nivel Intermedio es entender cómo el contexto influye en la calidad del resultado final. Nunca asumas que el modelo sabe lo que estás pensando."
+        },
+        {
+          "id": "module-60",
+          "title": "Práctica: Programación en Python",
+          "xpReward": 200,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Programación en Python en nivel Intermedio. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Dividir la tarea en prompts más pequeños (Chaining)",
+            "Pedirle todo en un solo prompt enorme",
+            "Usar solo palabras clave"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Intermedio, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Programación en Python."
+        },
+        {
+          "id": "module-61",
+          "title": "Teoría: Generación de Ideas (Intermedio)",
+          "xpReward": 100,
+          "type": "theory",
+          "content": "En este módulo aprenderás las bases fundamentales sobre Generación de Ideas usando IA Generativa. La clave en nivel Intermedio es entender cómo el contexto influye en la calidad del resultado final. Nunca asumas que el modelo sabe lo que estás pensando."
+        },
+        {
+          "id": "module-62",
+          "title": "Teoría: Programación en Python (Intermedio)",
+          "xpReward": 100,
+          "type": "theory",
+          "content": "En este módulo aprenderás las bases fundamentales sobre Programación en Python usando IA Generativa. La clave en nivel Intermedio es entender cómo el contexto influye en la calidad del resultado final. Nunca asumas que el modelo sabe lo que estás pensando."
+        },
+        {
+          "id": "module-63",
+          "title": "Teoría: Creación de Contenido (Intermedio)",
+          "xpReward": 100,
+          "type": "theory",
+          "content": "En este módulo aprenderás las bases fundamentales sobre Creación de Contenido usando IA Generativa. La clave en nivel Intermedio es entender cómo el contexto influye en la calidad del resultado final. Nunca asumas que el modelo sabe lo que estás pensando."
+        },
+        {
+          "id": "module-64",
+          "title": "Práctica: Generación de Ideas",
+          "xpReward": 200,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Generación de Ideas en nivel Intermedio. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Chain of Thought (Paso a paso)",
+            "Zero-Shot prompting",
+            "Ignorar las restricciones del sistema"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Intermedio, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Generación de Ideas."
+        },
+        {
+          "id": "module-65",
+          "title": "Teoría: Programación en Python (Intermedio)",
+          "xpReward": 100,
+          "type": "theory",
+          "content": "En este módulo aprenderás las bases fundamentales sobre Programación en Python usando IA Generativa. La clave en nivel Intermedio es entender cómo el contexto influye en la calidad del resultado final. Nunca asumas que el modelo sabe lo que estás pensando."
+        },
+        {
+          "id": "module-66",
+          "title": "Práctica: Creación de Contenido",
+          "xpReward": 200,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Creación de Contenido en nivel Intermedio. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Dividir la tarea en prompts más pequeños (Chaining)",
+            "Pedirle todo en un solo prompt enorme",
+            "Usar solo palabras clave"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Intermedio, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Creación de Contenido."
+        },
+        {
+          "id": "module-67",
+          "title": "Teoría: Resolución de Bugs (Intermedio)",
+          "xpReward": 100,
+          "type": "theory",
+          "content": "En este módulo aprenderás las bases fundamentales sobre Resolución de Bugs usando IA Generativa. La clave en nivel Intermedio es entender cómo el contexto influye en la calidad del resultado final. Nunca asumas que el modelo sabe lo que estás pensando."
+        },
+        {
+          "id": "module-68",
+          "title": "Práctica: Generación de Ideas",
+          "xpReward": 200,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Generación de Ideas en nivel Intermedio. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Usar GPT-4o",
+            "Usar Claude 3.5 Sonnet",
+            "Usar un modelo pequeño local"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Intermedio, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Generación de Ideas."
+        },
+        {
+          "id": "module-69",
+          "title": "Teoría: Programación en Python (Intermedio)",
+          "xpReward": 100,
+          "type": "theory",
+          "content": "En este módulo aprenderás las bases fundamentales sobre Programación en Python usando IA Generativa. La clave en nivel Intermedio es entender cómo el contexto influye en la calidad del resultado final. Nunca asumas que el modelo sabe lo que estás pensando."
+        },
+        {
+          "id": "module-70",
+          "title": "Teoría: Planificación de Proyectos (Intermedio)",
+          "xpReward": 100,
+          "type": "theory",
+          "content": "En este módulo aprenderás las bases fundamentales sobre Planificación de Proyectos usando IA Generativa. La clave en nivel Intermedio es entender cómo el contexto influye en la calidad del resultado final. Nunca asumas que el modelo sabe lo que estás pensando."
+        },
+        {
+          "id": "module-71",
+          "title": "Teoría: Diseño de APIs (Intermedio)",
+          "xpReward": 100,
+          "type": "theory",
+          "content": "En este módulo aprenderás las bases fundamentales sobre Diseño de APIs usando IA Generativa. La clave en nivel Intermedio es entender cómo el contexto influye en la calidad del resultado final. Nunca asumas que el modelo sabe lo que estás pensando."
+        },
+        {
+          "id": "module-72",
+          "title": "Práctica: Redacción de Correos",
+          "xpReward": 200,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Redacción de Correos en nivel Intermedio. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Dividir la tarea en prompts más pequeños (Chaining)",
+            "Pedirle todo en un solo prompt enorme",
+            "Usar solo palabras clave"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Intermedio, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Redacción de Correos."
+        },
+        {
+          "id": "module-73",
+          "title": "Práctica: Creación de Contenido",
+          "xpReward": 200,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Creación de Contenido en nivel Intermedio. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Usa un prompt genérico sin contexto",
+            "Añade rol, contexto y formato",
+            "Pídele a la IA que adivine el objetivo"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Intermedio, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Creación de Contenido."
+        },
+        {
+          "id": "module-74",
+          "title": "Práctica: Planificación de Proyectos",
+          "xpReward": 200,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Planificación de Proyectos en nivel Intermedio. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Usar GPT-4o",
+            "Usar Claude 3.5 Sonnet",
+            "Usar un modelo pequeño local"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Intermedio, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Planificación de Proyectos."
+        },
+        {
+          "id": "module-75",
+          "title": "Práctica: Generación de Ideas",
+          "xpReward": 200,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Generación de Ideas en nivel Intermedio. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Dividir la tarea en prompts más pequeños (Chaining)",
+            "Pedirle todo en un solo prompt enorme",
+            "Usar solo palabras clave"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Intermedio, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Generación de Ideas."
+        },
+        {
+          "id": "module-76",
+          "title": "Práctica: Generación de Ideas",
+          "xpReward": 200,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Generación de Ideas en nivel Intermedio. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Usar GPT-4o",
+            "Usar Claude 3.5 Sonnet",
+            "Usar un modelo pequeño local"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Intermedio, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Generación de Ideas."
+        },
+        {
+          "id": "module-77",
+          "title": "Práctica: Resolución de Bugs",
+          "xpReward": 200,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Resolución de Bugs en nivel Intermedio. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Usar GPT-4o",
+            "Usar Claude 3.5 Sonnet",
+            "Usar un modelo pequeño local"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Intermedio, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Resolución de Bugs."
+        },
+        {
+          "id": "module-78",
+          "title": "Teoría: Atención al Cliente (Intermedio)",
+          "xpReward": 100,
+          "type": "theory",
+          "content": "En este módulo aprenderás las bases fundamentales sobre Atención al Cliente usando IA Generativa. La clave en nivel Intermedio es entender cómo el contexto influye en la calidad del resultado final. Nunca asumas que el modelo sabe lo que estás pensando."
+        },
+        {
+          "id": "module-79",
+          "title": "Práctica: Diseño de APIs",
+          "xpReward": 200,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Diseño de APIs en nivel Intermedio. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Chain of Thought (Paso a paso)",
+            "Zero-Shot prompting",
+            "Ignorar las restricciones del sistema"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Intermedio, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Diseño de APIs."
+        },
+        {
+          "id": "module-80",
+          "title": "Práctica: Redacción de Correos",
+          "xpReward": 200,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Redacción de Correos en nivel Intermedio. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Usar GPT-4o",
+            "Usar Claude 3.5 Sonnet",
+            "Usar un modelo pequeño local"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Intermedio, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Redacción de Correos."
+        }
+      ]
+    },
+    {
+      "id": "advanced",
+      "title": "Avanzado",
+      "description": "Casos de uso profesionales: Programación, Análisis de Datos y RAG básico.",
+      "requiredLevel": 10,
+      "modules": [
+        {
+          "id": "module-81",
+          "title": "Teoría: Diseño de APIs (Avanzado)",
+          "xpReward": 150,
+          "type": "theory",
+          "content": "En este módulo aprenderás las bases fundamentales sobre Diseño de APIs usando IA Generativa. La clave en nivel Avanzado es entender cómo el contexto influye en la calidad del resultado final. Nunca asumas que el modelo sabe lo que estás pensando."
+        },
+        {
+          "id": "module-82",
+          "title": "Práctica: Diseño de APIs",
+          "xpReward": 300,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Diseño de APIs en nivel Avanzado. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Chain of Thought (Paso a paso)",
+            "Zero-Shot prompting",
+            "Ignorar las restricciones del sistema"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Avanzado, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Diseño de APIs."
+        },
+        {
+          "id": "module-83",
+          "title": "Práctica: Traducción Técnica",
+          "xpReward": 300,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Traducción Técnica en nivel Avanzado. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Chain of Thought (Paso a paso)",
+            "Zero-Shot prompting",
+            "Ignorar las restricciones del sistema"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Avanzado, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Traducción Técnica."
+        },
+        {
+          "id": "module-84",
+          "title": "Práctica: Resolución de Bugs",
+          "xpReward": 300,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Resolución de Bugs en nivel Avanzado. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Usar GPT-4o",
+            "Usar Claude 3.5 Sonnet",
+            "Usar un modelo pequeño local"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Avanzado, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Resolución de Bugs."
+        },
+        {
+          "id": "module-85",
+          "title": "Teoría: Programación en Python (Avanzado)",
+          "xpReward": 150,
+          "type": "theory",
+          "content": "En este módulo aprenderás las bases fundamentales sobre Programación en Python usando IA Generativa. La clave en nivel Avanzado es entender cómo el contexto influye en la calidad del resultado final. Nunca asumas que el modelo sabe lo que estás pensando."
+        },
+        {
+          "id": "module-86",
+          "title": "Práctica: Estrategia de Marketing",
+          "xpReward": 300,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Estrategia de Marketing en nivel Avanzado. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Chain of Thought (Paso a paso)",
+            "Zero-Shot prompting",
+            "Ignorar las restricciones del sistema"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Avanzado, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Estrategia de Marketing."
+        },
+        {
+          "id": "module-87",
+          "title": "Práctica: Traducción Técnica",
+          "xpReward": 300,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Traducción Técnica en nivel Avanzado. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Dividir la tarea en prompts más pequeños (Chaining)",
+            "Pedirle todo en un solo prompt enorme",
+            "Usar solo palabras clave"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Avanzado, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Traducción Técnica."
+        },
+        {
+          "id": "module-88",
+          "title": "Práctica: Generación de Ideas",
+          "xpReward": 300,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Generación de Ideas en nivel Avanzado. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Usar GPT-4o",
+            "Usar Claude 3.5 Sonnet",
+            "Usar un modelo pequeño local"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Avanzado, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Generación de Ideas."
+        },
+        {
+          "id": "module-89",
+          "title": "Teoría: Diseño de APIs (Avanzado)",
+          "xpReward": 150,
+          "type": "theory",
+          "content": "En este módulo aprenderás las bases fundamentales sobre Diseño de APIs usando IA Generativa. La clave en nivel Avanzado es entender cómo el contexto influye en la calidad del resultado final. Nunca asumas que el modelo sabe lo que estás pensando."
+        },
+        {
+          "id": "module-90",
+          "title": "Teoría: Traducción Técnica (Avanzado)",
+          "xpReward": 150,
+          "type": "theory",
+          "content": "En este módulo aprenderás las bases fundamentales sobre Traducción Técnica usando IA Generativa. La clave en nivel Avanzado es entender cómo el contexto influye en la calidad del resultado final. Nunca asumas que el modelo sabe lo que estás pensando."
+        },
+        {
+          "id": "module-91",
+          "title": "Práctica: Atención al Cliente",
+          "xpReward": 300,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Atención al Cliente en nivel Avanzado. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Dividir la tarea en prompts más pequeños (Chaining)",
+            "Pedirle todo en un solo prompt enorme",
+            "Usar solo palabras clave"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Avanzado, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Atención al Cliente."
+        },
+        {
+          "id": "module-92",
+          "title": "Práctica: Análisis de Datos",
+          "xpReward": 300,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Análisis de Datos en nivel Avanzado. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Usar GPT-4o",
+            "Usar Claude 3.5 Sonnet",
+            "Usar un modelo pequeño local"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Avanzado, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Análisis de Datos."
+        },
+        {
+          "id": "module-93",
+          "title": "Teoría: Programación en Python (Avanzado)",
+          "xpReward": 150,
+          "type": "theory",
+          "content": "En este módulo aprenderás las bases fundamentales sobre Programación en Python usando IA Generativa. La clave en nivel Avanzado es entender cómo el contexto influye en la calidad del resultado final. Nunca asumas que el modelo sabe lo que estás pensando."
+        },
+        {
+          "id": "module-94",
+          "title": "Teoría: Resolución de Bugs (Avanzado)",
+          "xpReward": 150,
+          "type": "theory",
+          "content": "En este módulo aprenderás las bases fundamentales sobre Resolución de Bugs usando IA Generativa. La clave en nivel Avanzado es entender cómo el contexto influye en la calidad del resultado final. Nunca asumas que el modelo sabe lo que estás pensando."
+        },
+        {
+          "id": "module-95",
+          "title": "Práctica: Creación de Contenido",
+          "xpReward": 300,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Creación de Contenido en nivel Avanzado. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Chain of Thought (Paso a paso)",
+            "Zero-Shot prompting",
+            "Ignorar las restricciones del sistema"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Avanzado, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Creación de Contenido."
+        },
+        {
+          "id": "module-96",
+          "title": "Teoría: Estrategia de Marketing (Avanzado)",
+          "xpReward": 150,
+          "type": "theory",
+          "content": "En este módulo aprenderás las bases fundamentales sobre Estrategia de Marketing usando IA Generativa. La clave en nivel Avanzado es entender cómo el contexto influye en la calidad del resultado final. Nunca asumas que el modelo sabe lo que estás pensando."
+        },
+        {
+          "id": "module-97",
+          "title": "Teoría: Traducción Técnica (Avanzado)",
+          "xpReward": 150,
+          "type": "theory",
+          "content": "En este módulo aprenderás las bases fundamentales sobre Traducción Técnica usando IA Generativa. La clave en nivel Avanzado es entender cómo el contexto influye en la calidad del resultado final. Nunca asumas que el modelo sabe lo que estás pensando."
+        },
+        {
+          "id": "module-98",
+          "title": "Práctica: Resumen de PDFs",
+          "xpReward": 300,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Resumen de PDFs en nivel Avanzado. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Chain of Thought (Paso a paso)",
+            "Zero-Shot prompting",
+            "Ignorar las restricciones del sistema"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Avanzado, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Resumen de PDFs."
+        },
+        {
+          "id": "module-99",
+          "title": "Práctica: Generación de Ideas",
+          "xpReward": 300,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Generación de Ideas en nivel Avanzado. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Chain of Thought (Paso a paso)",
+            "Zero-Shot prompting",
+            "Ignorar las restricciones del sistema"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Avanzado, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Generación de Ideas."
+        },
+        {
+          "id": "module-100",
+          "title": "Práctica: Resolución de Bugs",
+          "xpReward": 300,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Resolución de Bugs en nivel Avanzado. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Usar GPT-4o",
+            "Usar Claude 3.5 Sonnet",
+            "Usar un modelo pequeño local"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Avanzado, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Resolución de Bugs."
+        },
+        {
+          "id": "module-101",
+          "title": "Teoría: Traducción Técnica (Avanzado)",
+          "xpReward": 150,
+          "type": "theory",
+          "content": "En este módulo aprenderás las bases fundamentales sobre Traducción Técnica usando IA Generativa. La clave en nivel Avanzado es entender cómo el contexto influye en la calidad del resultado final. Nunca asumas que el modelo sabe lo que estás pensando."
+        },
+        {
+          "id": "module-102",
+          "title": "Práctica: Generación de Ideas",
+          "xpReward": 300,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Generación de Ideas en nivel Avanzado. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Dividir la tarea en prompts más pequeños (Chaining)",
+            "Pedirle todo en un solo prompt enorme",
+            "Usar solo palabras clave"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Avanzado, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Generación de Ideas."
+        },
+        {
+          "id": "module-103",
+          "title": "Práctica: Resumen de PDFs",
+          "xpReward": 300,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Resumen de PDFs en nivel Avanzado. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Chain of Thought (Paso a paso)",
+            "Zero-Shot prompting",
+            "Ignorar las restricciones del sistema"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Avanzado, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Resumen de PDFs."
+        },
+        {
+          "id": "module-104",
+          "title": "Práctica: Generación de Ideas",
+          "xpReward": 300,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Generación de Ideas en nivel Avanzado. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Chain of Thought (Paso a paso)",
+            "Zero-Shot prompting",
+            "Ignorar las restricciones del sistema"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Avanzado, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Generación de Ideas."
+        },
+        {
+          "id": "module-105",
+          "title": "Práctica: Redacción de Correos",
+          "xpReward": 300,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Redacción de Correos en nivel Avanzado. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Chain of Thought (Paso a paso)",
+            "Zero-Shot prompting",
+            "Ignorar las restricciones del sistema"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Avanzado, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Redacción de Correos."
+        },
+        {
+          "id": "module-106",
+          "title": "Práctica: Programación en Python",
+          "xpReward": 300,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Programación en Python en nivel Avanzado. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Usa un prompt genérico sin contexto",
+            "Añade rol, contexto y formato",
+            "Pídele a la IA que adivine el objetivo"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Avanzado, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Programación en Python."
+        },
+        {
+          "id": "module-107",
+          "title": "Práctica: Estrategia de Marketing",
+          "xpReward": 300,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Estrategia de Marketing en nivel Avanzado. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Chain of Thought (Paso a paso)",
+            "Zero-Shot prompting",
+            "Ignorar las restricciones del sistema"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Avanzado, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Estrategia de Marketing."
+        },
+        {
+          "id": "module-108",
+          "title": "Teoría: Diseño de APIs (Avanzado)",
+          "xpReward": 150,
+          "type": "theory",
+          "content": "En este módulo aprenderás las bases fundamentales sobre Diseño de APIs usando IA Generativa. La clave en nivel Avanzado es entender cómo el contexto influye en la calidad del resultado final. Nunca asumas que el modelo sabe lo que estás pensando."
+        },
+        {
+          "id": "module-109",
+          "title": "Teoría: Análisis de Datos (Avanzado)",
+          "xpReward": 150,
+          "type": "theory",
+          "content": "En este módulo aprenderás las bases fundamentales sobre Análisis de Datos usando IA Generativa. La clave en nivel Avanzado es entender cómo el contexto influye en la calidad del resultado final. Nunca asumas que el modelo sabe lo que estás pensando."
+        },
+        {
+          "id": "module-110",
+          "title": "Práctica: Creación de Contenido",
+          "xpReward": 300,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Creación de Contenido en nivel Avanzado. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Dividir la tarea en prompts más pequeños (Chaining)",
+            "Pedirle todo en un solo prompt enorme",
+            "Usar solo palabras clave"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Avanzado, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Creación de Contenido."
+        },
+        {
+          "id": "module-111",
+          "title": "Práctica: Resumen de PDFs",
+          "xpReward": 300,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Resumen de PDFs en nivel Avanzado. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Chain of Thought (Paso a paso)",
+            "Zero-Shot prompting",
+            "Ignorar las restricciones del sistema"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Avanzado, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Resumen de PDFs."
+        },
+        {
+          "id": "module-112",
+          "title": "Práctica: Generación de Ideas",
+          "xpReward": 300,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Generación de Ideas en nivel Avanzado. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Usar GPT-4o",
+            "Usar Claude 3.5 Sonnet",
+            "Usar un modelo pequeño local"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Avanzado, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Generación de Ideas."
+        },
+        {
+          "id": "module-113",
+          "title": "Teoría: Diseño de APIs (Avanzado)",
+          "xpReward": 150,
+          "type": "theory",
+          "content": "En este módulo aprenderás las bases fundamentales sobre Diseño de APIs usando IA Generativa. La clave en nivel Avanzado es entender cómo el contexto influye en la calidad del resultado final. Nunca asumas que el modelo sabe lo que estás pensando."
+        },
+        {
+          "id": "module-114",
+          "title": "Teoría: Creación de Contenido (Avanzado)",
+          "xpReward": 150,
+          "type": "theory",
+          "content": "En este módulo aprenderás las bases fundamentales sobre Creación de Contenido usando IA Generativa. La clave en nivel Avanzado es entender cómo el contexto influye en la calidad del resultado final. Nunca asumas que el modelo sabe lo que estás pensando."
+        },
+        {
+          "id": "module-115",
+          "title": "Teoría: Resumen de PDFs (Avanzado)",
+          "xpReward": 150,
+          "type": "theory",
+          "content": "En este módulo aprenderás las bases fundamentales sobre Resumen de PDFs usando IA Generativa. La clave en nivel Avanzado es entender cómo el contexto influye en la calidad del resultado final. Nunca asumas que el modelo sabe lo que estás pensando."
+        },
+        {
+          "id": "module-116",
+          "title": "Teoría: Planificación de Proyectos (Avanzado)",
+          "xpReward": 150,
+          "type": "theory",
+          "content": "En este módulo aprenderás las bases fundamentales sobre Planificación de Proyectos usando IA Generativa. La clave en nivel Avanzado es entender cómo el contexto influye en la calidad del resultado final. Nunca asumas que el modelo sabe lo que estás pensando."
+        },
+        {
+          "id": "module-117",
+          "title": "Práctica: Redacción de Correos",
+          "xpReward": 300,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Redacción de Correos en nivel Avanzado. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Usar GPT-4o",
+            "Usar Claude 3.5 Sonnet",
+            "Usar un modelo pequeño local"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Avanzado, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Redacción de Correos."
+        },
+        {
+          "id": "module-118",
+          "title": "Práctica: Resumen de PDFs",
+          "xpReward": 300,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Resumen de PDFs en nivel Avanzado. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Usa un prompt genérico sin contexto",
+            "Añade rol, contexto y formato",
+            "Pídele a la IA que adivine el objetivo"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Avanzado, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Resumen de PDFs."
+        },
+        {
+          "id": "module-119",
+          "title": "Práctica: Resolución de Bugs",
+          "xpReward": 300,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Resolución de Bugs en nivel Avanzado. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Dividir la tarea en prompts más pequeños (Chaining)",
+            "Pedirle todo en un solo prompt enorme",
+            "Usar solo palabras clave"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Avanzado, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Resolución de Bugs."
+        },
+        {
+          "id": "module-120",
+          "title": "Práctica: Resolución de Bugs",
+          "xpReward": 300,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Resolución de Bugs en nivel Avanzado. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Chain of Thought (Paso a paso)",
+            "Zero-Shot prompting",
+            "Ignorar las restricciones del sistema"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Avanzado, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Resolución de Bugs."
+        }
+      ]
+    },
+    {
+      "id": "professional",
+      "title": "Profesional",
+      "description": "Ingeniería de Contexto, Agentes Simples y Automatización con LLMs.",
+      "requiredLevel": 15,
+      "modules": [
+        {
+          "id": "module-121",
+          "title": "Teoría: Programación en Python (Profesional)",
+          "xpReward": 200,
+          "type": "theory",
+          "content": "En este módulo aprenderás las bases fundamentales sobre Programación en Python usando IA Generativa. La clave en nivel Profesional es entender cómo el contexto influye en la calidad del resultado final. Nunca asumas que el modelo sabe lo que estás pensando."
+        },
+        {
+          "id": "module-122",
+          "title": "Teoría: Creación de Contenido (Profesional)",
+          "xpReward": 200,
+          "type": "theory",
+          "content": "En este módulo aprenderás las bases fundamentales sobre Creación de Contenido usando IA Generativa. La clave en nivel Profesional es entender cómo el contexto influye en la calidad del resultado final. Nunca asumas que el modelo sabe lo que estás pensando."
+        },
+        {
+          "id": "module-123",
+          "title": "Práctica: Estrategia de Marketing",
+          "xpReward": 400,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Estrategia de Marketing en nivel Profesional. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Usar GPT-4o",
+            "Usar Claude 3.5 Sonnet",
+            "Usar un modelo pequeño local"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Profesional, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Estrategia de Marketing."
+        },
+        {
+          "id": "module-124",
+          "title": "Teoría: Resumen de PDFs (Profesional)",
+          "xpReward": 200,
+          "type": "theory",
+          "content": "En este módulo aprenderás las bases fundamentales sobre Resumen de PDFs usando IA Generativa. La clave en nivel Profesional es entender cómo el contexto influye en la calidad del resultado final. Nunca asumas que el modelo sabe lo que estás pensando."
+        },
+        {
+          "id": "module-125",
+          "title": "Práctica: Traducción Técnica",
+          "xpReward": 400,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Traducción Técnica en nivel Profesional. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Chain of Thought (Paso a paso)",
+            "Zero-Shot prompting",
+            "Ignorar las restricciones del sistema"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Profesional, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Traducción Técnica."
+        },
+        {
+          "id": "module-126",
+          "title": "Práctica: Planificación de Proyectos",
+          "xpReward": 400,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Planificación de Proyectos en nivel Profesional. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Usar GPT-4o",
+            "Usar Claude 3.5 Sonnet",
+            "Usar un modelo pequeño local"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Profesional, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Planificación de Proyectos."
+        },
+        {
+          "id": "module-127",
+          "title": "Teoría: Resumen de PDFs (Profesional)",
+          "xpReward": 200,
+          "type": "theory",
+          "content": "En este módulo aprenderás las bases fundamentales sobre Resumen de PDFs usando IA Generativa. La clave en nivel Profesional es entender cómo el contexto influye en la calidad del resultado final. Nunca asumas que el modelo sabe lo que estás pensando."
+        },
+        {
+          "id": "module-128",
+          "title": "Práctica: Planificación de Proyectos",
+          "xpReward": 400,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Planificación de Proyectos en nivel Profesional. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Usar GPT-4o",
+            "Usar Claude 3.5 Sonnet",
+            "Usar un modelo pequeño local"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Profesional, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Planificación de Proyectos."
+        },
+        {
+          "id": "module-129",
+          "title": "Práctica: Resumen de PDFs",
+          "xpReward": 400,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Resumen de PDFs en nivel Profesional. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Chain of Thought (Paso a paso)",
+            "Zero-Shot prompting",
+            "Ignorar las restricciones del sistema"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Profesional, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Resumen de PDFs."
+        },
+        {
+          "id": "module-130",
+          "title": "Práctica: Programación en Python",
+          "xpReward": 400,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Programación en Python en nivel Profesional. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Usar GPT-4o",
+            "Usar Claude 3.5 Sonnet",
+            "Usar un modelo pequeño local"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Profesional, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Programación en Python."
+        },
+        {
+          "id": "module-131",
+          "title": "Teoría: Planificación de Proyectos (Profesional)",
+          "xpReward": 200,
+          "type": "theory",
+          "content": "En este módulo aprenderás las bases fundamentales sobre Planificación de Proyectos usando IA Generativa. La clave en nivel Profesional es entender cómo el contexto influye en la calidad del resultado final. Nunca asumas que el modelo sabe lo que estás pensando."
+        },
+        {
+          "id": "module-132",
+          "title": "Teoría: Resumen de PDFs (Profesional)",
+          "xpReward": 200,
+          "type": "theory",
+          "content": "En este módulo aprenderás las bases fundamentales sobre Resumen de PDFs usando IA Generativa. La clave en nivel Profesional es entender cómo el contexto influye en la calidad del resultado final. Nunca asumas que el modelo sabe lo que estás pensando."
+        },
+        {
+          "id": "module-133",
+          "title": "Práctica: Generación de Ideas",
+          "xpReward": 400,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Generación de Ideas en nivel Profesional. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Dividir la tarea en prompts más pequeños (Chaining)",
+            "Pedirle todo en un solo prompt enorme",
+            "Usar solo palabras clave"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Profesional, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Generación de Ideas."
+        },
+        {
+          "id": "module-134",
+          "title": "Teoría: Resolución de Bugs (Profesional)",
+          "xpReward": 200,
+          "type": "theory",
+          "content": "En este módulo aprenderás las bases fundamentales sobre Resolución de Bugs usando IA Generativa. La clave en nivel Profesional es entender cómo el contexto influye en la calidad del resultado final. Nunca asumas que el modelo sabe lo que estás pensando."
+        },
+        {
+          "id": "module-135",
+          "title": "Práctica: Creación de Contenido",
+          "xpReward": 400,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Creación de Contenido en nivel Profesional. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Usa un prompt genérico sin contexto",
+            "Añade rol, contexto y formato",
+            "Pídele a la IA que adivine el objetivo"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Profesional, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Creación de Contenido."
+        },
+        {
+          "id": "module-136",
+          "title": "Práctica: Redacción de Correos",
+          "xpReward": 400,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Redacción de Correos en nivel Profesional. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Usa un prompt genérico sin contexto",
+            "Añade rol, contexto y formato",
+            "Pídele a la IA que adivine el objetivo"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Profesional, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Redacción de Correos."
+        },
+        {
+          "id": "module-137",
+          "title": "Teoría: Planificación de Proyectos (Profesional)",
+          "xpReward": 200,
+          "type": "theory",
+          "content": "En este módulo aprenderás las bases fundamentales sobre Planificación de Proyectos usando IA Generativa. La clave en nivel Profesional es entender cómo el contexto influye en la calidad del resultado final. Nunca asumas que el modelo sabe lo que estás pensando."
+        },
+        {
+          "id": "module-138",
+          "title": "Práctica: Resolución de Bugs",
+          "xpReward": 400,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Resolución de Bugs en nivel Profesional. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Dividir la tarea en prompts más pequeños (Chaining)",
+            "Pedirle todo en un solo prompt enorme",
+            "Usar solo palabras clave"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Profesional, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Resolución de Bugs."
+        },
+        {
+          "id": "module-139",
+          "title": "Teoría: Generación de Ideas (Profesional)",
+          "xpReward": 200,
+          "type": "theory",
+          "content": "En este módulo aprenderás las bases fundamentales sobre Generación de Ideas usando IA Generativa. La clave en nivel Profesional es entender cómo el contexto influye en la calidad del resultado final. Nunca asumas que el modelo sabe lo que estás pensando."
+        },
+        {
+          "id": "module-140",
+          "title": "Práctica: Atención al Cliente",
+          "xpReward": 400,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Atención al Cliente en nivel Profesional. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Chain of Thought (Paso a paso)",
+            "Zero-Shot prompting",
+            "Ignorar las restricciones del sistema"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Profesional, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Atención al Cliente."
+        },
+        {
+          "id": "module-141",
+          "title": "Práctica: Resumen de PDFs",
+          "xpReward": 400,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Resumen de PDFs en nivel Profesional. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Dividir la tarea en prompts más pequeños (Chaining)",
+            "Pedirle todo en un solo prompt enorme",
+            "Usar solo palabras clave"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Profesional, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Resumen de PDFs."
+        },
+        {
+          "id": "module-142",
+          "title": "Teoría: Resolución de Bugs (Profesional)",
+          "xpReward": 200,
+          "type": "theory",
+          "content": "En este módulo aprenderás las bases fundamentales sobre Resolución de Bugs usando IA Generativa. La clave en nivel Profesional es entender cómo el contexto influye en la calidad del resultado final. Nunca asumas que el modelo sabe lo que estás pensando."
+        },
+        {
+          "id": "module-143",
+          "title": "Práctica: Traducción Técnica",
+          "xpReward": 400,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Traducción Técnica en nivel Profesional. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Dividir la tarea en prompts más pequeños (Chaining)",
+            "Pedirle todo en un solo prompt enorme",
+            "Usar solo palabras clave"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Profesional, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Traducción Técnica."
+        },
+        {
+          "id": "module-144",
+          "title": "Práctica: Redacción de Correos",
+          "xpReward": 400,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Redacción de Correos en nivel Profesional. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Usa un prompt genérico sin contexto",
+            "Añade rol, contexto y formato",
+            "Pídele a la IA que adivine el objetivo"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Profesional, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Redacción de Correos."
+        },
+        {
+          "id": "module-145",
+          "title": "Teoría: Resumen de PDFs (Profesional)",
+          "xpReward": 200,
+          "type": "theory",
+          "content": "En este módulo aprenderás las bases fundamentales sobre Resumen de PDFs usando IA Generativa. La clave en nivel Profesional es entender cómo el contexto influye en la calidad del resultado final. Nunca asumas que el modelo sabe lo que estás pensando."
+        },
+        {
+          "id": "module-146",
+          "title": "Práctica: Atención al Cliente",
+          "xpReward": 400,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Atención al Cliente en nivel Profesional. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Chain of Thought (Paso a paso)",
+            "Zero-Shot prompting",
+            "Ignorar las restricciones del sistema"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Profesional, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Atención al Cliente."
+        },
+        {
+          "id": "module-147",
+          "title": "Práctica: Estrategia de Marketing",
+          "xpReward": 400,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Estrategia de Marketing en nivel Profesional. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Chain of Thought (Paso a paso)",
+            "Zero-Shot prompting",
+            "Ignorar las restricciones del sistema"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Profesional, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Estrategia de Marketing."
+        },
+        {
+          "id": "module-148",
+          "title": "Teoría: Planificación de Proyectos (Profesional)",
+          "xpReward": 200,
+          "type": "theory",
+          "content": "En este módulo aprenderás las bases fundamentales sobre Planificación de Proyectos usando IA Generativa. La clave en nivel Profesional es entender cómo el contexto influye en la calidad del resultado final. Nunca asumas que el modelo sabe lo que estás pensando."
+        },
+        {
+          "id": "module-149",
+          "title": "Teoría: Planificación de Proyectos (Profesional)",
+          "xpReward": 200,
+          "type": "theory",
+          "content": "En este módulo aprenderás las bases fundamentales sobre Planificación de Proyectos usando IA Generativa. La clave en nivel Profesional es entender cómo el contexto influye en la calidad del resultado final. Nunca asumas que el modelo sabe lo que estás pensando."
+        },
+        {
+          "id": "module-150",
+          "title": "Práctica: Diseño de APIs",
+          "xpReward": 400,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Diseño de APIs en nivel Profesional. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Usa un prompt genérico sin contexto",
+            "Añade rol, contexto y formato",
+            "Pídele a la IA que adivine el objetivo"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Profesional, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Diseño de APIs."
+        },
+        {
+          "id": "module-151",
+          "title": "Teoría: Análisis de Datos (Profesional)",
+          "xpReward": 200,
+          "type": "theory",
+          "content": "En este módulo aprenderás las bases fundamentales sobre Análisis de Datos usando IA Generativa. La clave en nivel Profesional es entender cómo el contexto influye en la calidad del resultado final. Nunca asumas que el modelo sabe lo que estás pensando."
+        },
+        {
+          "id": "module-152",
+          "title": "Teoría: Programación en Python (Profesional)",
+          "xpReward": 200,
+          "type": "theory",
+          "content": "En este módulo aprenderás las bases fundamentales sobre Programación en Python usando IA Generativa. La clave en nivel Profesional es entender cómo el contexto influye en la calidad del resultado final. Nunca asumas que el modelo sabe lo que estás pensando."
+        },
+        {
+          "id": "module-153",
+          "title": "Práctica: Creación de Contenido",
+          "xpReward": 400,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Creación de Contenido en nivel Profesional. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Dividir la tarea en prompts más pequeños (Chaining)",
+            "Pedirle todo en un solo prompt enorme",
+            "Usar solo palabras clave"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Profesional, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Creación de Contenido."
+        },
+        {
+          "id": "module-154",
+          "title": "Práctica: Resumen de PDFs",
+          "xpReward": 400,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Resumen de PDFs en nivel Profesional. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Dividir la tarea en prompts más pequeños (Chaining)",
+            "Pedirle todo en un solo prompt enorme",
+            "Usar solo palabras clave"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Profesional, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Resumen de PDFs."
+        },
+        {
+          "id": "module-155",
+          "title": "Práctica: Creación de Contenido",
+          "xpReward": 400,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Creación de Contenido en nivel Profesional. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Chain of Thought (Paso a paso)",
+            "Zero-Shot prompting",
+            "Ignorar las restricciones del sistema"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Profesional, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Creación de Contenido."
+        },
+        {
+          "id": "module-156",
+          "title": "Teoría: Atención al Cliente (Profesional)",
+          "xpReward": 200,
+          "type": "theory",
+          "content": "En este módulo aprenderás las bases fundamentales sobre Atención al Cliente usando IA Generativa. La clave en nivel Profesional es entender cómo el contexto influye en la calidad del resultado final. Nunca asumas que el modelo sabe lo que estás pensando."
+        },
+        {
+          "id": "module-157",
+          "title": "Práctica: Traducción Técnica",
+          "xpReward": 400,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Traducción Técnica en nivel Profesional. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Dividir la tarea en prompts más pequeños (Chaining)",
+            "Pedirle todo en un solo prompt enorme",
+            "Usar solo palabras clave"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Profesional, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Traducción Técnica."
+        },
+        {
+          "id": "module-158",
+          "title": "Práctica: Diseño de APIs",
+          "xpReward": 400,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Diseño de APIs en nivel Profesional. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Chain of Thought (Paso a paso)",
+            "Zero-Shot prompting",
+            "Ignorar las restricciones del sistema"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Profesional, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Diseño de APIs."
+        },
+        {
+          "id": "module-159",
+          "title": "Teoría: Generación de Ideas (Profesional)",
+          "xpReward": 200,
+          "type": "theory",
+          "content": "En este módulo aprenderás las bases fundamentales sobre Generación de Ideas usando IA Generativa. La clave en nivel Profesional es entender cómo el contexto influye en la calidad del resultado final. Nunca asumas que el modelo sabe lo que estás pensando."
+        },
+        {
+          "id": "module-160",
+          "title": "Teoría: Atención al Cliente (Profesional)",
+          "xpReward": 200,
+          "type": "theory",
+          "content": "En este módulo aprenderás las bases fundamentales sobre Atención al Cliente usando IA Generativa. La clave en nivel Profesional es entender cómo el contexto influye en la calidad del resultado final. Nunca asumas que el modelo sabe lo que estás pensando."
+        }
+      ]
+    },
+    {
+      "id": "expert",
+      "title": "Experto",
+      "description": "MCP, Function Calling, Fine-Tuning, Multi-Agentes y Evaluación de Modelos.",
+      "requiredLevel": 20,
+      "modules": [
+        {
+          "id": "module-161",
+          "title": "Práctica: Atención al Cliente",
+          "xpReward": 500,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Atención al Cliente en nivel Experto. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Dividir la tarea en prompts más pequeños (Chaining)",
+            "Pedirle todo en un solo prompt enorme",
+            "Usar solo palabras clave"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Experto, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Atención al Cliente."
+        },
+        {
+          "id": "module-162",
+          "title": "Teoría: Generación de Ideas (Experto)",
+          "xpReward": 250,
+          "type": "theory",
+          "content": "En este módulo aprenderás las bases fundamentales sobre Generación de Ideas usando IA Generativa. La clave en nivel Experto es entender cómo el contexto influye en la calidad del resultado final. Nunca asumas que el modelo sabe lo que estás pensando."
+        },
+        {
+          "id": "module-163",
+          "title": "Práctica: Creación de Contenido",
+          "xpReward": 500,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Creación de Contenido en nivel Experto. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Dividir la tarea en prompts más pequeños (Chaining)",
+            "Pedirle todo en un solo prompt enorme",
+            "Usar solo palabras clave"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Experto, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Creación de Contenido."
+        },
+        {
+          "id": "module-164",
+          "title": "Práctica: Resumen de PDFs",
+          "xpReward": 500,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Resumen de PDFs en nivel Experto. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Usa un prompt genérico sin contexto",
+            "Añade rol, contexto y formato",
+            "Pídele a la IA que adivine el objetivo"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Experto, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Resumen de PDFs."
+        },
+        {
+          "id": "module-165",
+          "title": "Práctica: Estrategia de Marketing",
+          "xpReward": 500,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Estrategia de Marketing en nivel Experto. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Usar GPT-4o",
+            "Usar Claude 3.5 Sonnet",
+            "Usar un modelo pequeño local"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Experto, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Estrategia de Marketing."
+        },
+        {
+          "id": "module-166",
+          "title": "Teoría: Creación de Contenido (Experto)",
+          "xpReward": 250,
+          "type": "theory",
+          "content": "En este módulo aprenderás las bases fundamentales sobre Creación de Contenido usando IA Generativa. La clave en nivel Experto es entender cómo el contexto influye en la calidad del resultado final. Nunca asumas que el modelo sabe lo que estás pensando."
+        },
+        {
+          "id": "module-167",
+          "title": "Teoría: Planificación de Proyectos (Experto)",
+          "xpReward": 250,
+          "type": "theory",
+          "content": "En este módulo aprenderás las bases fundamentales sobre Planificación de Proyectos usando IA Generativa. La clave en nivel Experto es entender cómo el contexto influye en la calidad del resultado final. Nunca asumas que el modelo sabe lo que estás pensando."
+        },
+        {
+          "id": "module-168",
+          "title": "Teoría: Resolución de Bugs (Experto)",
+          "xpReward": 250,
+          "type": "theory",
+          "content": "En este módulo aprenderás las bases fundamentales sobre Resolución de Bugs usando IA Generativa. La clave en nivel Experto es entender cómo el contexto influye en la calidad del resultado final. Nunca asumas que el modelo sabe lo que estás pensando."
+        },
+        {
+          "id": "module-169",
+          "title": "Práctica: Programación en Python",
+          "xpReward": 500,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Programación en Python en nivel Experto. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Chain of Thought (Paso a paso)",
+            "Zero-Shot prompting",
+            "Ignorar las restricciones del sistema"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Experto, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Programación en Python."
+        },
+        {
+          "id": "module-170",
+          "title": "Teoría: Diseño de APIs (Experto)",
+          "xpReward": 250,
+          "type": "theory",
+          "content": "En este módulo aprenderás las bases fundamentales sobre Diseño de APIs usando IA Generativa. La clave en nivel Experto es entender cómo el contexto influye en la calidad del resultado final. Nunca asumas que el modelo sabe lo que estás pensando."
+        },
+        {
+          "id": "module-171",
+          "title": "Teoría: Redacción de Correos (Experto)",
+          "xpReward": 250,
+          "type": "theory",
+          "content": "En este módulo aprenderás las bases fundamentales sobre Redacción de Correos usando IA Generativa. La clave en nivel Experto es entender cómo el contexto influye en la calidad del resultado final. Nunca asumas que el modelo sabe lo que estás pensando."
+        },
+        {
+          "id": "module-172",
+          "title": "Práctica: Programación en Python",
+          "xpReward": 500,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Programación en Python en nivel Experto. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Dividir la tarea en prompts más pequeños (Chaining)",
+            "Pedirle todo en un solo prompt enorme",
+            "Usar solo palabras clave"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Experto, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Programación en Python."
+        },
+        {
+          "id": "module-173",
+          "title": "Práctica: Resumen de PDFs",
+          "xpReward": 500,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Resumen de PDFs en nivel Experto. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Chain of Thought (Paso a paso)",
+            "Zero-Shot prompting",
+            "Ignorar las restricciones del sistema"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Experto, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Resumen de PDFs."
+        },
+        {
+          "id": "module-174",
+          "title": "Práctica: Redacción de Correos",
+          "xpReward": 500,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Redacción de Correos en nivel Experto. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Chain of Thought (Paso a paso)",
+            "Zero-Shot prompting",
+            "Ignorar las restricciones del sistema"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Experto, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Redacción de Correos."
+        },
+        {
+          "id": "module-175",
+          "title": "Práctica: Creación de Contenido",
+          "xpReward": 500,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Creación de Contenido en nivel Experto. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Chain of Thought (Paso a paso)",
+            "Zero-Shot prompting",
+            "Ignorar las restricciones del sistema"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Experto, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Creación de Contenido."
+        },
+        {
+          "id": "module-176",
+          "title": "Teoría: Estrategia de Marketing (Experto)",
+          "xpReward": 250,
+          "type": "theory",
+          "content": "En este módulo aprenderás las bases fundamentales sobre Estrategia de Marketing usando IA Generativa. La clave en nivel Experto es entender cómo el contexto influye en la calidad del resultado final. Nunca asumas que el modelo sabe lo que estás pensando."
+        },
+        {
+          "id": "module-177",
+          "title": "Práctica: Atención al Cliente",
+          "xpReward": 500,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Atención al Cliente en nivel Experto. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Usar GPT-4o",
+            "Usar Claude 3.5 Sonnet",
+            "Usar un modelo pequeño local"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Experto, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Atención al Cliente."
+        },
+        {
+          "id": "module-178",
+          "title": "Teoría: Estrategia de Marketing (Experto)",
+          "xpReward": 250,
+          "type": "theory",
+          "content": "En este módulo aprenderás las bases fundamentales sobre Estrategia de Marketing usando IA Generativa. La clave en nivel Experto es entender cómo el contexto influye en la calidad del resultado final. Nunca asumas que el modelo sabe lo que estás pensando."
+        },
+        {
+          "id": "module-179",
+          "title": "Práctica: Resumen de PDFs",
+          "xpReward": 500,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Resumen de PDFs en nivel Experto. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Usa un prompt genérico sin contexto",
+            "Añade rol, contexto y formato",
+            "Pídele a la IA que adivine el objetivo"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Experto, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Resumen de PDFs."
+        },
+        {
+          "id": "module-180",
+          "title": "Práctica: Análisis de Datos",
+          "xpReward": 500,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Análisis de Datos en nivel Experto. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Usa un prompt genérico sin contexto",
+            "Añade rol, contexto y formato",
+            "Pídele a la IA que adivine el objetivo"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Experto, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Análisis de Datos."
+        },
+        {
+          "id": "module-181",
+          "title": "Práctica: Programación en Python",
+          "xpReward": 500,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Programación en Python en nivel Experto. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Dividir la tarea en prompts más pequeños (Chaining)",
+            "Pedirle todo en un solo prompt enorme",
+            "Usar solo palabras clave"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Experto, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Programación en Python."
+        },
+        {
+          "id": "module-182",
+          "title": "Práctica: Diseño de APIs",
+          "xpReward": 500,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Diseño de APIs en nivel Experto. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Chain of Thought (Paso a paso)",
+            "Zero-Shot prompting",
+            "Ignorar las restricciones del sistema"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Experto, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Diseño de APIs."
+        },
+        {
+          "id": "module-183",
+          "title": "Práctica: Diseño de APIs",
+          "xpReward": 500,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Diseño de APIs en nivel Experto. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Usa un prompt genérico sin contexto",
+            "Añade rol, contexto y formato",
+            "Pídele a la IA que adivine el objetivo"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Experto, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Diseño de APIs."
+        },
+        {
+          "id": "module-184",
+          "title": "Práctica: Estrategia de Marketing",
+          "xpReward": 500,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Estrategia de Marketing en nivel Experto. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Usar GPT-4o",
+            "Usar Claude 3.5 Sonnet",
+            "Usar un modelo pequeño local"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Experto, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Estrategia de Marketing."
+        },
+        {
+          "id": "module-185",
+          "title": "Práctica: Análisis de Datos",
+          "xpReward": 500,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Análisis de Datos en nivel Experto. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Usar GPT-4o",
+            "Usar Claude 3.5 Sonnet",
+            "Usar un modelo pequeño local"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Experto, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Análisis de Datos."
+        },
+        {
+          "id": "module-186",
+          "title": "Teoría: Análisis de Datos (Experto)",
+          "xpReward": 250,
+          "type": "theory",
+          "content": "En este módulo aprenderás las bases fundamentales sobre Análisis de Datos usando IA Generativa. La clave en nivel Experto es entender cómo el contexto influye en la calidad del resultado final. Nunca asumas que el modelo sabe lo que estás pensando."
+        },
+        {
+          "id": "module-187",
+          "title": "Teoría: Creación de Contenido (Experto)",
+          "xpReward": 250,
+          "type": "theory",
+          "content": "En este módulo aprenderás las bases fundamentales sobre Creación de Contenido usando IA Generativa. La clave en nivel Experto es entender cómo el contexto influye en la calidad del resultado final. Nunca asumas que el modelo sabe lo que estás pensando."
+        },
+        {
+          "id": "module-188",
+          "title": "Práctica: Programación en Python",
+          "xpReward": 500,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Programación en Python en nivel Experto. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Chain of Thought (Paso a paso)",
+            "Zero-Shot prompting",
+            "Ignorar las restricciones del sistema"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Experto, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Programación en Python."
+        },
+        {
+          "id": "module-189",
+          "title": "Práctica: Traducción Técnica",
+          "xpReward": 500,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Traducción Técnica en nivel Experto. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Usa un prompt genérico sin contexto",
+            "Añade rol, contexto y formato",
+            "Pídele a la IA que adivine el objetivo"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Experto, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Traducción Técnica."
+        },
+        {
+          "id": "module-190",
+          "title": "Teoría: Estrategia de Marketing (Experto)",
+          "xpReward": 250,
+          "type": "theory",
+          "content": "En este módulo aprenderás las bases fundamentales sobre Estrategia de Marketing usando IA Generativa. La clave en nivel Experto es entender cómo el contexto influye en la calidad del resultado final. Nunca asumas que el modelo sabe lo que estás pensando."
+        },
+        {
+          "id": "module-191",
+          "title": "Práctica: Resolución de Bugs",
+          "xpReward": 500,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Resolución de Bugs en nivel Experto. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Usar GPT-4o",
+            "Usar Claude 3.5 Sonnet",
+            "Usar un modelo pequeño local"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Experto, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Resolución de Bugs."
+        },
+        {
+          "id": "module-192",
+          "title": "Práctica: Análisis de Datos",
+          "xpReward": 500,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Análisis de Datos en nivel Experto. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Chain of Thought (Paso a paso)",
+            "Zero-Shot prompting",
+            "Ignorar las restricciones del sistema"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Experto, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Análisis de Datos."
+        },
+        {
+          "id": "module-193",
+          "title": "Práctica: Análisis de Datos",
+          "xpReward": 500,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Análisis de Datos en nivel Experto. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Chain of Thought (Paso a paso)",
+            "Zero-Shot prompting",
+            "Ignorar las restricciones del sistema"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Experto, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Análisis de Datos."
+        },
+        {
+          "id": "module-194",
+          "title": "Práctica: Análisis de Datos",
+          "xpReward": 500,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Análisis de Datos en nivel Experto. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Usa un prompt genérico sin contexto",
+            "Añade rol, contexto y formato",
+            "Pídele a la IA que adivine el objetivo"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Experto, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Análisis de Datos."
+        },
+        {
+          "id": "module-195",
+          "title": "Práctica: Diseño de APIs",
+          "xpReward": 500,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Diseño de APIs en nivel Experto. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Usar GPT-4o",
+            "Usar Claude 3.5 Sonnet",
+            "Usar un modelo pequeño local"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Experto, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Diseño de APIs."
+        },
+        {
+          "id": "module-196",
+          "title": "Teoría: Programación en Python (Experto)",
+          "xpReward": 250,
+          "type": "theory",
+          "content": "En este módulo aprenderás las bases fundamentales sobre Programación en Python usando IA Generativa. La clave en nivel Experto es entender cómo el contexto influye en la calidad del resultado final. Nunca asumas que el modelo sabe lo que estás pensando."
+        },
+        {
+          "id": "module-197",
+          "title": "Práctica: Programación en Python",
+          "xpReward": 500,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Programación en Python en nivel Experto. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Usar GPT-4o",
+            "Usar Claude 3.5 Sonnet",
+            "Usar un modelo pequeño local"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Experto, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Programación en Python."
+        },
+        {
+          "id": "module-198",
+          "title": "Práctica: Generación de Ideas",
+          "xpReward": 500,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Generación de Ideas en nivel Experto. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Chain of Thought (Paso a paso)",
+            "Zero-Shot prompting",
+            "Ignorar las restricciones del sistema"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Experto, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Generación de Ideas."
+        },
+        {
+          "id": "module-199",
+          "title": "Práctica: Redacción de Correos",
+          "xpReward": 500,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Redacción de Correos en nivel Experto. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Dividir la tarea en prompts más pequeños (Chaining)",
+            "Pedirle todo en un solo prompt enorme",
+            "Usar solo palabras clave"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Experto, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Redacción de Correos."
+        },
+        {
+          "id": "module-200",
+          "title": "Práctica: Creación de Contenido",
+          "xpReward": 500,
+          "type": "interactive",
+          "question": "Estás trabajando en una tarea de Creación de Contenido en nivel Experto. ¿Cuál es la mejor estrategia de Prompt Engineering a utilizar?",
+          "options": [
+            "Chain of Thought (Paso a paso)",
+            "Zero-Shot prompting",
+            "Ignorar las restricciones del sistema"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Excelente. En nivel Experto, aplicar esta estrategia maximiza la precisión del LLM y minimiza las alucinaciones en tareas de Creación de Contenido."
+        }
+      ]
     }
   ]
 }
