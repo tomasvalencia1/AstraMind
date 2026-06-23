@@ -1,0 +1,39 @@
+{
+  "levels": [
+    {
+      "id": "beginner",
+      "title": "Principiante",
+      "description": "Fundamentos de los modelos de lenguaje y prompt engineering básico.",
+      "requiredLevel": 1,
+      "modules": [
+        {
+          "id": "module-1-beginner",
+          "title": "Anatomía de un Prompt",
+          "xpReward": 100,
+          "type": "theory",
+          "content": "Un prompt profesional tiene tres componentes clave: Contexto, Instrucción y Formato. Sin estos, el LLM tiene que adivinar qué quieres."
+        },
+        {
+          "id": "module-2-beginner",
+          "title": "El poder del Contexto",
+          "xpReward": 150,
+          "type": "interactive",
+          "question": "¿Cuál de los siguientes prompts generará una mejor respuesta para un correo de ventas?",
+          "options": [
+            "Escribe un correo para vender zapatos.",
+            "Actúa como un vendedor experto. Escribe un correo de 2 párrafos para vender zapatillas deportivas de alto rendimiento a corredores amateurs. Usa un tono motivador."
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "El segundo prompt proporciona un rol, un objetivo claro, una audiencia específica y un tono. Esto reduce las alucinaciones y mejora la calidad."
+        }
+      ]
+    },
+    {
+      "id": "intermediate",
+      "title": "Intermedio",
+      "description": "Técnicas avanzadas: Chain of Thought y Few-shot prompting.",
+      "requiredLevel": 5,
+      "modules": []
+    }
+  ]
+}

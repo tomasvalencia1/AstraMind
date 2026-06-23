@@ -1,0 +1,169 @@
+.lesson-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.lesson-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.lesson-xp-badge {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(245, 158, 11, 0.15);
+  color: var(--color-warning);
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  font-weight: 600;
+}
+
+.lesson-content {
+  padding: 3rem;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.lesson-title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: var(--color-primary);
+}
+
+.theory-text {
+  font-size: 1.25rem;
+  line-height: 1.8;
+  color: var(--color-text-secondary);
+}
+
+.question-text {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.options-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.option-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.25rem;
+  background: rgba(255, 255, 255, 0.03);
+  border: 2px solid var(--color-glass-border);
+  border-radius: var(--radius-lg);
+  color: var(--color-text-primary);
+  text-align: left;
+  transition: all var(--transition-fast);
+  width: 100%;
+}
+
+.option-card:hover:not(.disabled):not(.correct):not(.incorrect) {
+  border-color: var(--color-primary);
+  background: rgba(99, 102, 241, 0.05);
+}
+
+.option-indicator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+.option-text {
+  font-size: 1.1rem;
+}
+
+.option-card.correct {
+  border-color: var(--color-success);
+  background: rgba(16, 185, 129, 0.1);
+}
+
+.option-card.correct .option-indicator {
+  background: var(--color-success);
+  color: white;
+}
+
+.option-card.incorrect {
+  border-color: var(--color-error);
+  background: rgba(239, 68, 68, 0.1);
+}
+
+.option-card.incorrect .option-indicator {
+  background: var(--color-error);
+  color: white;
+}
+
+.option-card.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.btn-large {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.1rem;
+}
+
+.success-banner, .feedback-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.5rem;
+  border-radius: var(--radius-lg);
+  text-align: center;
+}
+
+.success-banner {
+  background: rgba(16, 185, 129, 0.1);
+  border: 1px solid var(--color-success);
+  color: var(--color-success);
+}
+
+.feedback-banner.error {
+  background: rgba(239, 68, 68, 0.1);
+  border: 1px solid var(--color-error);
+}
+
+.feedback-banner.success {
+  background: rgba(16, 185, 129, 0.1);
+  border: 1px solid var(--color-success);
+}
+
+.feedback-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.feedback-banner p {
+  color: var(--color-text-primary);
+  font-size: 1.1rem;
+}
