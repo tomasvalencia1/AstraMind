@@ -1,0 +1,78 @@
+import type { Level } from '../types';
+
+export const levels: Level[] = [
+  {
+    id: 'nivel-1',
+    name: 'Principiante',
+    description: 'Fundamentos de los modelos de lenguaje y prompt engineering básico.',
+    modules: [
+      {
+        id: 'mod-1',
+        title: 'Módulo 1: Práctica: Resolución de Bugs',
+        description: 'Aprende a identificar y corregir errores en código utilizando modelos de lenguaje.',
+        xp: 120,
+        type: 'Práctica',
+        locked: false,
+        completed: false,
+        levelId: 'nivel-1',
+      },
+      {
+        id: 'mod-2',
+        title: 'Módulo 2: Práctica: Diseño de APIs',
+        description: 'Diseña APIs RESTful eficientes con la ayuda de la IA.',
+        xp: 120,
+        type: 'Práctica',
+        locked: true,
+        completed: false,
+        levelId: 'nivel-1',
+      },
+      {
+        id: 'mod-3',
+        title: 'Módulo 3: Teoría: Redacción de Correos (Principiante)',
+        description: 'Fundamentos de comunicación profesional asistida por IA.',
+        xp: 60,
+        type: 'Teoría',
+        locked: true,
+        completed: false,
+        levelId: 'nivel-1',
+      },
+      {
+        id: 'mod-4',
+        title: 'Módulo 4: Práctica: Análisis de Datos',
+        description: 'Utiliza la IA para analizar conjuntos de datos y extraer insights.',
+        xp: 120,
+        type: 'Práctica',
+        locked: true,
+        completed: false,
+        levelId: 'nivel-1',
+      },
+    ],
+  },
+  {
+    id: 'nivel-2',
+    name: 'Intermedio',
+    description: 'Técnicas avanzadas de prompting y casos de uso complejos.',
+    modules: [
+      {
+        id: 'mod-5',
+        title: 'Módulo 5: Práctica: Optimización de Código',
+        description: 'Mejora el rendimiento de tu código con sugerencias de IA.',
+        xp: 150,
+        type: 'Práctica',
+        locked: true,
+        completed: false,
+        levelId: 'nivel-2',
+      },
+      {
+        id: 'mod-6',
+        title: 'Módulo 6: Teoría: Prompt Engineering Avanzado',
+        description: 'Patrones avanzados para obtener mejores resultados de los LLMs.',
+        xp: 80,
+        type: 'Teoría',
+        locked: true,
+        completed: false,
+        levelId: 'nivel-2',
+      },
+    ],
+  },
+];
