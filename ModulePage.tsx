@@ -103,27 +103,46 @@ function QuestionFeedback({ question, selectedLabel, questionIndex }: QuestionFe
           </div>
         )}
 
-        {/* Explicación de la respuesta correcta */}
-        <div className="mt-3 bg-[#0a0a0f] rounded-lg p-3 border border-white/5">
-          <div className="flex items-start gap-2">
-            <Lightbulb size={15} className="text-amber-400 mt-0.5 shrink-0" />
-            <div>
-              <p className="text-amber-400 font-semibold text-xs mb-1">¿Por qué es correcta?</p>
-              <p className="text-gray-300 text-xs leading-relaxed">{question.explanation}</p>
+        {isCorrect ? (
+          /* Acertaste: explica por qué es la mejor opción */
+          <div className="mt-3 bg-emerald-500/5 rounded-lg p-3 border border-emerald-500/20">
+            <div className="flex items-start gap-2">
+              <Lightbulb size={15} className="text-emerald-400 mt-0.5 shrink-0" />
+              <div>
+                <p className="text-emerald-400 font-semibold text-xs mb-1">
+                  ¿Por qué esta es la mejor opción?
+                </p>
+                <p className="text-gray-300 text-xs leading-relaxed">{question.explanation}</p>
+              </div>
             </div>
           </div>
-        </div>
-
-        {/* Explicación de las incorrectas */}
-        <div className="bg-[#0a0a0f] rounded-lg p-3 border border-white/5">
-          <div className="flex items-start gap-2">
-            <AlertCircle size={15} className="text-red-400 mt-0.5 shrink-0" />
-            <div>
-              <p className="text-red-400 font-semibold text-xs mb-1">Sobre las otras opciones:</p>
-              <p className="text-gray-300 text-xs leading-relaxed">{question.wrongExplanation}</p>
+        ) : (
+          /* Fallaste: primero por qué las otras fallan, luego por qué la correcta funciona */
+          <div className="mt-3 space-y-2">
+            <div className="bg-red-500/5 rounded-lg p-3 border border-red-500/20">
+              <div className="flex items-start gap-2">
+                <AlertCircle size={15} className="text-red-400 mt-0.5 shrink-0" />
+                <div>
+                  <p className="text-red-400 font-semibold text-xs mb-1">
+                    ¿Por qué las otras opciones no son las mejores?
+                  </p>
+                  <p className="text-gray-300 text-xs leading-relaxed">{question.wrongExplanation}</p>
+                </div>
+              </div>
+            </div>
+            <div className="bg-amber-500/5 rounded-lg p-3 border border-amber-500/20">
+              <div className="flex items-start gap-2">
+                <Lightbulb size={15} className="text-amber-400 mt-0.5 shrink-0" />
+                <div>
+                  <p className="text-amber-400 font-semibold text-xs mb-1">
+                    ¿Por qué &ldquo;{correctOption?.text}&rdquo; es la correcta?
+                  </p>
+                  <p className="text-gray-300 text-xs leading-relaxed">{question.explanation}</p>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
+        )}
       </div>
     </div>
   );
@@ -524,8 +543,9 @@ export default function ModulePage() {
                     <div className="flex items-start gap-2">
                       <XCircle size={18} className="text-red-400 mt-0.5 shrink-0" />
                       <div>
-                        <p className="font-semibold text-red-400 mb-1">
-                          Incorrecto — La respuesta correcta era{' '}
+                        {/* Título: qué elegiste vs. qué era correcto */}
+                        <p className="font-semibold text-red-400 mb-2">
+                          Respuesta incorrecta — La correcta era{' '}
                           <span className="text-emerald-400">
                             {currentQuestion.correctOption}.{' '}
                             {currentQuestion.options.find(
@@ -533,13 +553,26 @@ export default function ModulePage() {
                             )?.text}
                           </span>
                         </p>
-                        <p className="text-sm text-gray-300 leading-relaxed mb-2">
-                          {currentQuestion.explanation}
-                        </p>
-                        <div className="border-t border-white/5 pt-2 mt-2">
-                          <p className="text-xs text-gray-500 font-medium mb-1">Sobre las opciones incorrectas:</p>
-                          <p className="text-xs text-gray-400 leading-relaxed">
+
+                        {/* POR QUÉ TU OPCIÓN FALLA — usa wrongExplanation */}
+                        <div className="bg-red-500/5 border border-red-500/20 rounded-lg p-3 mb-2">
+                          <p className="text-xs text-red-400 font-semibold mb-1">
+                            ¿Por qué tu opción no es la mejor?
+                          </p>
+                          <p className="text-sm text-gray-300 leading-relaxed">
                             {currentQuestion.wrongExplanation}
+                          </p>
+                        </div>
+
+                        {/* POR QUÉ LA CORRECTA SÍ ES CORRECTA — usa explanation */}
+                        <div className="bg-emerald-500/5 border border-emerald-500/20 rounded-lg p-3">
+                          <p className="text-xs text-emerald-400 font-semibold mb-1">
+                            ¿Por qué "{currentQuestion.options.find(
+                              (o) => o.label === currentQuestion.correctOption
+                            )?.text}" es la respuesta correcta?
+                          </p>
+                          <p className="text-sm text-gray-300 leading-relaxed">
+                            {currentQuestion.explanation}
                           </p>
                         </div>
                       </div>
