@@ -4,7 +4,6 @@ import './Dashboard.css';
 
 const Dashboard = () => {
   const user = useAppStore((state) => state.user);
-  const addXp = useAppStore((state) => state.addXp);
 
   return (
     <div className="dashboard-container fade-in">
@@ -13,9 +12,6 @@ const Dashboard = () => {
           <h1>Hola, Futuro Experto 👋</h1>
           <p className="subtitle">Tu camino hacia el dominio de la IA comienza aquí.</p>
         </div>
-        <button className="btn btn-primary" onClick={() => addXp(50)}>
-          Simular Ejercicio (+50 XP)
-        </button>
       </header>
 
       <div className="stats-grid">
