@@ -27,7 +27,7 @@ export const useAppStore = create<AppState>()(
         level: 1,
         streak: 0,
         lastLogin: null,
-        unlockedModules: ['module-1-beginner'],
+        unlockedModules: ['module-1'],
       },
       addXp: (amount) =>
         set((state) => {
@@ -71,6 +71,16 @@ export const useAppStore = create<AppState>()(
       name: 'ai-master-storage', // name of the item in the storage (must be unique)
       // By default, it uses localStorage.
       // Ready to swap to a custom storage that syncs with Supabase DB later.
+      merge: (persistedState, currentState) => {
+        const persisted = persistedState as Partial<AppState> | undefined;
+        const mergedUser = { ...currentState.user, ...persisted?.user };
+        // Garantiza que module-1 siempre esté desbloqueado, incluso si el
+        // navegador tenía datos guardados de una version anterior.
+        mergedUser.unlockedModules = Array.from(
+          new Set(['module-1', ...(mergedUser.unlockedModules ?? [])])
+        );
+        return { ...currentState, ...persisted, user: mergedUser };
+      },
     }
   )
 )
